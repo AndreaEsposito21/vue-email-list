@@ -30,12 +30,19 @@
 <body>
 
     <div id='root'>
-        <div>
-            <ul v-if="listEmail.length == listEmailLength">
-                <li v-for="email in listEmail">
-                    {{email}}
-                </li>
-            </ul>
+        <div class="container">
+            
+            <div class="email-title">
+                <h1>List Email with API</h1>
+            </div>
+
+            <div class="list-container">
+                <ul v-if="listEmail.length == listEmailLength">
+                    <li v-for="email in listEmail">
+                        {{email}}
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     

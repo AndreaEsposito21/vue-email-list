@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+}
+
+.email-title {
+    background-color: #3a3637;
+    padding: 20px;
+    text-align: center;
+}
+.email-title h1 {
+    color: #f3c622;
+    text-transform: uppercase;
+}
+
+.list-container {
+    background-color: #23212c;
+    color: #fcb43a;
+}
+
+.list-container ul {
+    list-style-type: none;
+}
+
+.list-container li {
+    padding: 20px;
+}
+
+.list-container li:nth-child(odd) {
+    background-color: #fcb43a;
+    color: #23212c;
+}
